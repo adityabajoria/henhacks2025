@@ -43,7 +43,7 @@ const events = [
   { id: '2', title: 'Perkins Live', description: 'James Camacho Live Performance Tonight!!!', image: require('../../assets/images/PK.png'), location: 'Perkins Student Center' },
   { id: '3', title: 'Quizzo', description: 'Join for fun Trivia, Prizes and Snacks', image: require('../../assets/images/QI.png'), location: 'Trabant University Center' },
   { id: '4', title: 'Trabant Now', description: '24 Hour of Theatre', image: require('../../assets/images/TN.png'), location: 'Trabant University Center' },
-  // Add more events 
+  // Add more events
 ];
 
 export default function Index() {
@@ -455,7 +455,7 @@ const styles = StyleSheet.create({
   },
   newsEventsList: {
     backgroundColor: '#f1f1f1',
-    padding: 16,  
+    padding: 16,
     flex: 1,
   },
   newsCard: {

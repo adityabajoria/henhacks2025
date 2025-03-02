@@ -6,13 +6,13 @@ export default function RootLayout() {
     <ThemeProvider>
       <Stack initialRouteName="index">
         {/* Define the initial route as "index" */}
-        <Stack.Screen 
-          name="index" 
+        <Stack.Screen
+          name="index"
           options={{ headerShown: false, gestureEnabled: false }} 
         />
         {/* Define the "info" screen */}
-        <Stack.Screen 
-          name="info" 
+        <Stack.Screen
+          name="info"
           options={{ headerShown: false, gestureEnabled: false }} 
         />
         {/* Define the "signup" screen */}
